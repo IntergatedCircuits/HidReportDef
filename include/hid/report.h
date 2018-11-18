@@ -166,7 +166,8 @@ typedef enum
 #define HID_POP                         HID_ITEM_0(0xA, GLOBAL)
 
 /* HID Report Local Items */
-#define HID_USAGE(VAL)                  HID_ITEM_1(0x0, LOCAL, VAL)
+#define HID_USAGE_1(VAL)                HID_ITEM_1(0x0, LOCAL, VAL)
+#define HID_USAGE_2(VAL)                HID_ITEM_2(0x0, LOCAL, VAL)
 
 #define HID_USAGE_MIN_8(VAL)            HID_ITEM_1(0x1, LOCAL, VAL)
 #define HID_USAGE_MIN_16(VAL)           HID_ITEM_2(0x1, LOCAL, VAL)

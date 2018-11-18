@@ -25,8 +25,8 @@
 #define __HID_USAGE_BUTTON_H_
 #include <hid/report.h>
 
-#define HID_USAGE_PAGE_BUTTON           0x05, 0x09 /* Usage page: Button */
+#define HID_USAGE_PAGE_BUTTON           HID_ITEM_1(0x0, GLOBAL, 0x09)
 
-#define HID_USAGE_BUTTON(VAL)           0x09, (VAL)
+#define HID_USAGE_BUTTON(VAL)           HID_USAGE_1(VAL)
 
 #endif /* __HID_USAGE_BUTTON_H_ */

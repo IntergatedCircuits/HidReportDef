@@ -25,7 +25,7 @@
 #define __HID_USAGE_KEYBOARD_H_
 #include <hid/report.h>
 
-#define HID_USAGE_PAGE_KEYBOARD         0x05, 0x07
+#define HID_USAGE_PAGE_KEYBOARD         HID_ITEM_1(0x0, GLOBAL, 0x07)
 
 /* HID key enumeration (doesn't contain modifier keys) */
 typedef enum {

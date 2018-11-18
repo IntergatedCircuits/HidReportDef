@@ -25,27 +25,28 @@
 #define __HID_USAGE_DESKTOP_H_
 #include <hid/report.h>
 
-#define HID_USAGE_PAGE_DESKTOP          0x05, 0x01 /* Usage page: Generic Desktop */
+#define HID_USAGE_PAGE_DESKTOP          HID_ITEM_1(0x0, GLOBAL, 0x01)
 
-#define HID_USAGE_DT_POINTER            0x09, 0x01
-#define HID_USAGE_DT_MOUSE              0x09, 0x02
-#define HID_USAGE_DT_KEYBOARD           0x09, 0x06
-#define HID_USAGE_DT_KEYPAD             0x09, 0x07
+#define HID_USAGE_DT_POINTER            HID_USAGE_1(0x01)
+#define HID_USAGE_DT_MOUSE              HID_USAGE_1(0x02)
+#define HID_USAGE_DT_KEYBOARD           HID_USAGE_1(0x06)
+#define HID_USAGE_DT_KEYPAD             HID_USAGE_1(0x07)
 
-#define HID_USAGE_DT_X                  0x09, 0x30
-#define HID_USAGE_DT_Y                  0x09, 0x31
-#define HID_USAGE_DT_Z                  0x09, 0x32
-#define HID_USAGE_DT_RX                 0x09, 0x33
-#define HID_USAGE_DT_RY                 0x09, 0x34
-#define HID_USAGE_DT_RZ                 0x09, 0x35
-#define HID_USAGE_DT_WHEEL              0x09, 0x38
-#define HID_USAGE_DT_MOTION_WAKEUP      0x09, 0x3C
+#define HID_USAGE_DT_X                  HID_USAGE_1(0x30)
+#define HID_USAGE_DT_Y                  HID_USAGE_1(0x31)
+#define HID_USAGE_DT_Z                  HID_USAGE_1(0x32)
+#define HID_USAGE_DT_RX                 HID_USAGE_1(0x33)
+#define HID_USAGE_DT_RY                 HID_USAGE_1(0x34)
+#define HID_USAGE_DT_RZ                 HID_USAGE_1(0x35)
+#define HID_USAGE_DT_WHEEL              HID_USAGE_1(0x38)
+#define HID_USAGE_DT_MOTION_WAKEUP      HID_USAGE_1(0x3C)
 
-#define HID_USAGE_DT_RESOLUTION_MULT    0x09, 0x48
+#define HID_USAGE_DT_RESOLUTION_MULT    HID_USAGE_1(0x48)
 
-#define HID_USAGE_DT_SYS_POWER_DOWN     0x09, 0x81
-#define HID_USAGE_DT_SYS_SLEEP          0x09, 0x82
-#define HID_USAGE_DT_SYS_WAKEUP         0x09, 0x83
+#define HID_USAGE_DT_SYS_CTRL           HID_USAGE_1(0x80)
+#define HID_USAGE_DT_SYS_POWER_DOWN     HID_USAGE_1(0x81)
+#define HID_USAGE_DT_SYS_SLEEP          HID_USAGE_1(0x82)
+#define HID_USAGE_DT_SYS_WAKEUP         HID_USAGE_1(0x83)
 
 
 #endif /* __HID_USAGE_DESKTOP_H_ */
