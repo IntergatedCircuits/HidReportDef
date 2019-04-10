@@ -63,7 +63,6 @@ HID_USAGE_PAGE_KEYBOARD,                \
 
 /** @brief LED indicator extension for @ref HID_KEYBOARD_REPORT_DESC */
 #define HID_KEYBOARD_LED_DESC           \
-        __HID_KEYBOARD_REPORT_DESC,     \
 HID_USAGE_PAGE_LED,                     \
             /* LED indicators */        \
             HID_USAGE_MIN_8(1),         \
