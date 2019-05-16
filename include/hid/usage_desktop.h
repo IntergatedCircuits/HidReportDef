@@ -29,6 +29,7 @@
 
 #define HID_USAGE_DT_POINTER            HID_USAGE_1(0x01)
 #define HID_USAGE_DT_MOUSE              HID_USAGE_1(0x02)
+#define HID_USAGE_DT_JOYSTICK           HID_USAGE_1(0x04)
 #define HID_USAGE_DT_KEYBOARD           HID_USAGE_1(0x06)
 #define HID_USAGE_DT_KEYPAD             HID_USAGE_1(0x07)
 
