@@ -30,8 +30,10 @@
 #define HID_USAGE_DT_POINTER            HID_USAGE_1(0x01)
 #define HID_USAGE_DT_MOUSE              HID_USAGE_1(0x02)
 #define HID_USAGE_DT_JOYSTICK           HID_USAGE_1(0x04)
+#define HID_USAGE_DT_GAMEPAD            HID_USAGE_1(0x05)
 #define HID_USAGE_DT_KEYBOARD           HID_USAGE_1(0x06)
 #define HID_USAGE_DT_KEYPAD             HID_USAGE_1(0x07)
+#define HID_USAGE_DT_MULTI_AXIS_CTRL    HID_USAGE_1(0x08)
 
 #define HID_USAGE_DT_X                  HID_USAGE_1(0x30)
 #define HID_USAGE_DT_Y                  HID_USAGE_1(0x31)
