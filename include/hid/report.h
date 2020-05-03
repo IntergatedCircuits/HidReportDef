@@ -168,6 +168,7 @@ typedef enum
 /* HID Report Local Items */
 #define HID_USAGE_1(VAL)                HID_ITEM_1(0x0, LOCAL, VAL)
 #define HID_USAGE_2(VAL)                HID_ITEM_2(0x0, LOCAL, VAL)
+#define HID_USAGE_ABS(PAGE,VAL)         HID_ITEM_4(0x0, LOCAL, ((PAGE) << 16) | (VAL))
 
 #define HID_USAGE_MIN_8(VAL)            HID_ITEM_1(0x1, LOCAL, VAL)
 #define HID_USAGE_MIN_16(VAL)           HID_ITEM_2(0x1, LOCAL, VAL)
