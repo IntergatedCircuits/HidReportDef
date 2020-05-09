@@ -40,7 +40,7 @@ HID_USAGE_PAGE_DESKTOP,                 \
         HID_COLLECTION_PHYSICAL(        \
 HID_USAGE_PAGE_BUTTON,                  \
             /* 3  buttons */            \
-            HID_USAGE_MIN_8(0),         \
+            HID_USAGE_MIN_8(1),         \
             HID_USAGE_MAX_8(3),         \
             HID_LOGICAL_MIN_8(0),       \
             HID_LOGICAL_MAX_8(1),       \

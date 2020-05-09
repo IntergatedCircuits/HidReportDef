@@ -85,7 +85,7 @@ typedef enum {
     KGrave,
     KCommaLessthan,
     KDotGreaterthan,
-    KSlashQueestionmark,
+    KSlashQuestionmark,
     KCapsLock,
     KF1,
     KF2,
