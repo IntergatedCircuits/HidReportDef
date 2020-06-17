@@ -159,8 +159,10 @@ typedef enum
 #define HID_UNIT_WEBER_EXP              ((HID_UNIT_METER_EXP*2) + HID_UNIT_KILOGRAM_EXP)
 
 #define HID_REPORT_SIZE(VAL)            HID_ITEM_1(0x7, GLOBAL, VAL)
+#define HID_REPORT_SIZE_16(VAL)         HID_ITEM_2(0x7, GLOBAL, VAL)
 #define HID_REPORT_ID(VAL)              HID_ITEM_1(0x8, GLOBAL, VAL)
 #define HID_REPORT_COUNT(VAL)           HID_ITEM_1(0x9, GLOBAL, VAL)
+#define HID_REPORT_COUNT_16(VAL)        HID_ITEM_2(0x9, GLOBAL, VAL)
 
 #define HID_PUSH                        HID_ITEM_0(0xA, GLOBAL)
 #define HID_POP                         HID_ITEM_0(0xA, GLOBAL)
