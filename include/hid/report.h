@@ -83,8 +83,6 @@ typedef enum
 
 /* HID Report Global Items */
 
-#define HID_USAGE_PAGE_VENDOR_SPEC      HID_ITEM_1(0x0, GLOBAL, 0xFF)
-
 #define HID_LOGICAL_MIN_8(VAL)          HID_ITEM_1(0x1, GLOBAL, VAL)
 #define HID_LOGICAL_MIN_16(VAL)         HID_ITEM_2(0x1, GLOBAL, VAL)
 #define HID_LOGICAL_MIN_32(VAL)         HID_ITEM_4(0x1, GLOBAL, VAL)
